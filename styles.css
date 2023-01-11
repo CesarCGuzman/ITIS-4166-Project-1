@@ -25,10 +25,22 @@ footer {
     width: 100%;
 }
 
+.nav-row-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.img-nav-link {
+    width: 100px;
+    justify-self: flex-start;
+}
+.nav-img {
+    width: 100px;
+}
 
 .user-nav-container {
     display: flex;
-    justify-content: flex-end;
+    justify-self: flex-end;
 }
 
 .user-links {
@@ -40,6 +52,10 @@ footer {
 
 }
 
+.user-links a{
+    margin-left: 10px;
+}
+
 li a {
     text-decoration: none;
 }
@@ -49,4 +65,7 @@ li a {
     margin: 0.5rem 0rem;
     list-style: none;
     display: flex;
+}
+.nav-links a{
+    margin-left: 10px;
 }
