@@ -2,16 +2,31 @@ html {
     position: relative;
     min-height: 100%;
 }
+
 body {
-    padding: 0;
-    margin: 0;
-  }
-  footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  width: 100%;
+}
+
 .nav-img-fluid {
-    max-width: 10%;
-    height: inherit;
+  max-width: 10%;
+  height: inherit;
+}
+
+.event-img-1 {
+  max-width: inherit;
+  max-height: 50%;
+}
+
+.event-img-2 {
+  max-width: inherit;
+  max-height: 75%;
+}
+
+.events-row-1 {
+  margin-bottom: -150px;
 }
