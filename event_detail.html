@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="styles.css">
-    <title>Catland - Home</title>
+    <title>Event Details</title>
 </head>
 <body class="bg-dark-subtle">
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
@@ -19,7 +19,7 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="new_event.html">New Event</a>
+                        <a class="nav-link" aria-current="page" href="index.html">New Event</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="signup.html">Sign up</a>
@@ -31,41 +31,50 @@
             </div>
         </div>
     </nav>
-
     <div class="container-fluid bg-body-tertiary" data-bs-theme="dark">
         <hr class="border border-warning border-1 opacity-100 my-0">
     </div>
-
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <ul class="navbar-nav mb-2 mb-lg-0 me-auto ms-2">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="events.html"">Cat Events</a>
+                    <a class="nav-link active" aria-current="page" href="events.html">Cat Events</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="container-fluid mt-4">
-        <div class="container w-75">
-            <h3>Welcome to Catland</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quas tenetur illo et, 
-                excepturi minus enim possimus nisi voluptatum non perferendis quod consequatur veniam 
-                quos eos quia facilis animi earum molestias? Deleniti nisi modi tenetur quidem numquam, 
-                expedita esse doloremque unde amet a temporibus facere quaerat fugit veniam ipsam? Modi 
-                corporis repudiandae officia voluptatibus tempore laudantium doloremque! Sunt sed, cum 
-                assumenda laboriosam tenetur repellendus eveniet sapiente, numquam beatae nam delectus 
-                libero ipsum exercitationem nihil omnis rerum? Sapiente quas eaque porro nostrum harum 
-                voluptates explicabo dolorem alias magnam amet asperiores dignissimos tempora ut iste 
-                ullam ipsa, maxime voluptatem vero. Error dolorum esse, neque ipsum repudiandae nam, 
-                sed tempora rerum, nemo quia explicabo. Facilis quas optio excepturi dolorem sint a 
-                unde quisquam deserunt, maiores at voluptate doloribus voluptatibus?
-            </p>
-
-            <p>Something about cats, probably that they are extremely fluffy</p>
+    <!--Body-->
+    <div class="container mt-5">
+        <div class="event-title">
+            <h2>Catcon - 2023</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-square" viewBox="0 0 16 16">
+                <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+              </svg>
+            
+        </div>  
+        <div class="container mt-5">
+            <div class="row">
+            <div class="col-md-4 col-6 d-flex justify-content-start">
+                <img src="/images/cat.png" alt="" class="event-img-1">
+            </div>
+            <div class="col-md-8 text-md-start">
+                <p><b>Host:</b> A cat</p>
+                <p><b>Date & Time:</b> Saturday 12:00pm to 7:00pm</p>
+                <p><b>Location:</b> A land far far away</p>
+                <p><b>Details:</b> A cat will be hosting the annual cat con this year! Wow! a real cat. I hope he has a sense of humor.</p>
+            </div>
         </div>
-    </div>
+            
+        </div>
 
+    </div>
+    
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-body-tertiary mb-0 ms-0 fixed-bottom" data-bs-theme="dark">
         <p class="col-md-4 mb-0 text-muted">Copyright 2023 - Footer</p>
     </footer>
