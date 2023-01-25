@@ -12,6 +12,20 @@ footer {
   width: 100%;
 }
 
+.footer-link {
+  text-decoration: none;
+  color: rgba(173, 181, 189, 0.75);
+}
+
+.footer-icon {
+  fill: rgba(173, 181, 189, 0.75);
+}
+
+.footer-link:hover, .footer-icon:hover {
+  color: white;
+  fill: white;
+}
+
 .nav-img-fluid {
   max-width: 10%;
   height: inherit;
@@ -30,3 +44,4 @@ footer {
 .events-row-1 {
   margin-bottom: -150px;
 }
+
